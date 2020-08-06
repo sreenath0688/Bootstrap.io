@@ -1,0 +1,93 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    *{
+        padding:0;
+        margin:0;
+      }
+      navbar .btn{
+        border-top-left-radius:25px;
+              border-bottom-right-radius:25px;
+      }
+      .navbar .nav-items:hover {
+        background:silver;
+        border-top-left-radius:25px;
+              border-bottom-right-radius:25px;
+      }
+
+      #home{
+         
+background: url(images/hourse.webp) no-repeat center center fixed;
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+background-size: cover;
+      }
+    
+    
+    
+    
+
+}
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align:middle;
+    text-align: 
+
+}
+.landing-text h1{
+    font-size 400%; 
+    font-weight: 700;
+    text-align: center;
+}
+.padding{
+    padding:80px 0;
+
+}
+.padding img {
+    width: 100%;
+}
+#fixed{
+    background: url(img/bootstrap.png) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+
+}
+footer{
+    width: 100%;
+    background-color: indigo;
+    padding: 5% 5% 10% 5%;
+    color: paleturquoise;
+}
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color: papayawhip;
+}
+.fa:hover{
+ color: plum;
+ text-decoration: none;
+}
+.icon{
+    max-width: 200px;
+}
+/@media(max-width: 768px){
+
+    .landing-text h1{
+        font-size:300%;
+    }
+.fa{
+    font-size: 20px;
+    padding: 10px;
+}
+.icon{
+    padding-top: 5%;
+    max-width: 100px;
+
+   }//
+}
